@@ -1,2 +1,2 @@
 #!/bin/bash
-grep bash.bin /etc/passwd/
+grep -v nologin /etc/passwd
