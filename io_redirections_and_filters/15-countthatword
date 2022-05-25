@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -ef | grep bin | grep -v grep
+ps -ef | grep | grep -v bin
