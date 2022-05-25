@@ -1,2 +1,2 @@
 #!/bin/bash
-grep ... | sort -u -f > 5.txt
+tr ' ' "\n" < file | sort -u
