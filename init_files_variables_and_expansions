@@ -1,2 +1,0 @@
-#!/bin/bash
-alias ls 0 = 'rm*'0-alias
