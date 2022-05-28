@@ -1,2 +1,2 @@
 #!/bin/bash
-find . (<directory path>type d)  
+echo . (<directory path>type d)  
