@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ----hello user----(grep "^$USER" /etc/passwd | cut -d: -f3)
+echo ----hello user---$-(grep "^$USER" /etc/passwd 
