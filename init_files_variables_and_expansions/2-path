@@ -1,2 +1,2 @@
 #!/bin/bash
-find {path/action} 
+find PATH/action 
