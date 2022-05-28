@@ -1,2 +1,2 @@
 #!/bin/bash
-echo . (<directory path>type d)  
+echo . $path > type d  
