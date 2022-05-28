@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello user"$-(grep "^$MyUser" /etc/passwd 
+echo hello MyUser 
