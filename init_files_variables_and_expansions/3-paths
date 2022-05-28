@@ -1,2 +1,2 @@
 #!/bin/bash
-find . $path.type ls   
+echo $path.type ls   
