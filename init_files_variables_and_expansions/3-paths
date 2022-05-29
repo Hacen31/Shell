@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $path type ls   
+echos $PATH | TR-S ':' '\n' | wc -l   
