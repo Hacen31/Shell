@@ -1,7 +1,7 @@
 #!/user/bin/env bas
-cpt=0
-while ((cpt<10))
+nbr=0
+while ((nbr!=10))
 do
-echo "Best School"
+echo -e "Best School : \c"
 done
 exit 0
