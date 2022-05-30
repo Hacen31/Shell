@@ -1,6 +1,7 @@
 #!/user/bin/env bas
 i=0
-while i < 10: 
+while ((i < 10))
+do 
 print("Best School")
-i=i +10
+done
 exit
