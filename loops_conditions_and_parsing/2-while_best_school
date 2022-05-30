@@ -1,6 +1,5 @@
-#!/user/bin/env bas
-using namespace std;
-int main()
+#!/user/bin/env bas;
+
 {
 int i=0;
 while(i<10)
