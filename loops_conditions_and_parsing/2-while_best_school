@@ -1,4 +1,4 @@
-#!t School !\n");user/bin/env bash
+#!/user/bin/env bash
 int compteur = 0;
 
 while (compteur < 10)
