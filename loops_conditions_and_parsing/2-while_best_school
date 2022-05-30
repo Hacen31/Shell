@@ -1,8 +1,8 @@
 #!t School !\n");user/bin/env bash
-i = 0;
-while ( < 10)
+int compteur = 0;
+
+while (compteur < 10)
 	{
 		    printf("Best School !\n");
-		       i++;
-		}
-
+		        compteur++;
+		}	
