@@ -1,7 +1,6 @@
 #!/user/bin/env bas
-nbr=0
-while ((nbr!=10))
-do
-echo -e "Best School : \c"
-done
-exit 0
+i = 0
+while i < 10: 
+print("Best School")
+i = i +10
+
