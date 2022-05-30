@@ -1,8 +1,8 @@
 #!/user/bin/env bash
-Best School= 0
+Best School=0
 
-until [ $counter -gt 10 ]
+until [ $Best school -gt 10 ]
 do
-	  echo Best School:$Best School
-	    ((counter++))
+	  echo Best School: $Best School
+	    ((Best School++))
     done
