@@ -1,9 +1,7 @@
-#!/user/bin/env bas;
-
-{
-int i=0;
-while(i<10)
-{
-cout <<"Best School de i vaut : "<<i<<endl;
-return 0;
-}
+#!/user/bin/env bas
+#int compteur = 0;
+#while (compteur < 10)
+#{
+#printf("Best School !\n");
+#compteur++;
+#}
