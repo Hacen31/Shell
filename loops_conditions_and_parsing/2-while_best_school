@@ -1,7 +1,7 @@
 #!/user/bin/env bash
-#int compteur = 0;
-#while (compteur < 10)
-#{
-#printf("Best School !\n");
-#compteur++;
-#}
+int compteur = 0;
+while (compteur < 10)
+	{
+		printf("Best School !\n");
+		compteur++;
+}
