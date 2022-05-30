@@ -3,4 +3,4 @@ i = 0
 while i < 10: 
 print("Best School")
 i = i +10
-
+exit
