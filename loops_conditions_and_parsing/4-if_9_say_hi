@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # This is my bash script
-bestschool=1
-while [ $bestschool -ne 11 ]; do
+bestschool=0
+while [ $bestschool -ne 9 ]; do
 	printf "Best School\n"
-if [[ "$bestschool" -eq 9 ]]; then
+if [[ "$bestschool" -eq 8 ]]; then
 	printf "HI\n"
 fi
 	((bestschool++));
