@@ -2,8 +2,8 @@
 # This is my bash script
 bestschool=0;
 
-while [ $bestschool -ne 9 ]; do
-	if [[ "HI -eq = 8" ]]; then
+while [ $bestschool -ne 10 ]; do
+	if [[-eq "HI = 8" ]]; then
 	printf "Best School\n"
 
 	((bestschool++));
