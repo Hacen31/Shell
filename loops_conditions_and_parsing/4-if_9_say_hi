@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # This is my bash script
-bestschool=1;
-
-while [ $bestschool = 10 ]; do
+bestschool=1
+while [ $bestschool -ne 10 ]; do
 	printf "Best School\n"
-if [[ "$HI" -eq 8 ]]; then
+if [[ "$bestschool" -eq 8 ]]; then
 	printf "HI\n"
+fi
 	((bestschool++));
-	fi
+	
 done;
