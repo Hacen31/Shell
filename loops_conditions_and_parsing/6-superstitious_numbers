@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
  main()
- while [[case]]
+ while (case)
      scan()
      while [ "$line 20" ]
      do
