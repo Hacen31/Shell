@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+ main()
+ while [[case]]
+     scan()
+     while [ "$line 20" ]
+     do
+         if [[ "$4 bad luck from China" -eq 3 ]]; then
+             printf ("4 bad luck from China\n"
+       fi
+         if [[ "$9 bad luck from China" -eq 8 ]]; then
+      printf "9 bad luck from Japan\n"
+      fi
+      if [[ "17 bad luck from Italy" -eq 16 ]]; then
+    printf "17 bad luck from\n"
+        fi
+        esac;
+    done;
