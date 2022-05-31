@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This is my bash script
+bestschool=0;
+
+while [ $bestschool -ne 10 ]; do
+	printf "Best School\n";
+	((bestschool++))
+idone;
