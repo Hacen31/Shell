@@ -3,9 +3,9 @@
 bestschool=0;
 
 while [ $bestschool -eq 10 ]; do
-	if [[ "HI = 8" ]]; then
 	printf "Best School\n"
-
+if [[ "HI -eq 8" ]]; then
+	printf "HI\n"
 	((bestschool++));
 	fi
 done;
