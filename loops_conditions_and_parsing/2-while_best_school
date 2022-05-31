@@ -1,8 +1,8 @@
-#!/user/bin/env bash
-int compteur = 0;
+#!/usr/bin/env bash
+# This is my bash script
+bestschool=0;
 
-while (compteur < 10)
-	{
-		    printf("Best School !\n");
-		        compteur++;
-		}	
+while [ $bestschool -ne 10 ]; do
+	printf "Best School !\n";
+	((bestschool++))
+done;
