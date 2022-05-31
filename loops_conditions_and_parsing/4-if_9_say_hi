@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # This is my bash script
-bestschool=0;
+bestschool=1;
 
-while [ $bestschool -n 9 ]; do
+while [ $bestschool -eq 10 ]; do
 	printf "Best School\n"
-if [[ "HI -eq 8" ]]; then
+if [[ "HI -eq 9" ]]; then
 	printf "HI\n"
 	((bestschool++));
 	fi
