@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This is my bash script
-bestschool=1
+bestschool=0
 while [ $bestschool -ne 10 ]; do
 	printf "Best School\n"
 if [[ "$bestschool" -eq 8 ]]; then
