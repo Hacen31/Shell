@@ -2,9 +2,9 @@
 # This is my bash script
 bestschool=0;
 
-while [ $bestschool -eq 10 ]; do
+while [ $bestschool -eq 9 ]; do
 	printf "Best School\n"
-if [[ "HI -eq 6" ]]; then
+if [[ "HI -eq 8" ]]; then
 	printf "HI\n"
 	((bestschool++));
 	fi
