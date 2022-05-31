@@ -1,8 +1,8 @@
-#!/user/bin/env bash
-Best School=0
+#!/usr/bin/env bash
+# This is my bash script
+bestschool=0;
 
-until [ $Best school -gt 10 ]
-do
-	  echo Best School: $Best School
-	    ((Best School++))
-    done
+until [ $bestschool -eq 10 ]; do
+	printf "Best School\n";
+	((bestschool++))
+done;
