@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This is my bash script
 bestschool=1
-while [ $bestschool -ne 10 ]; do
+while [ $bestschool -ne 9 ]; do
 	printf "Best School\n"
 if [[ "$bestschool" -eq 8 ]]; then
 	printf "HI\n"
