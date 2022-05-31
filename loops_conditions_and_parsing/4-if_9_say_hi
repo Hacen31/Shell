@@ -3,7 +3,7 @@
 bestschool=0
 while [ $bestschool -ne 9 ]; do
 	printf "Best School\n"
-if [[ "$bestschool" -eq 8 ]]; then
+if [[ "$bestschool" -eq 7 ]]; then
 	printf "HI\n"
 fi
 	((bestschool++));
