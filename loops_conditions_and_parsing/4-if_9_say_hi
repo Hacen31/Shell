@@ -2,7 +2,7 @@
 # This is my bash script
 bestschool=0;
 
-while [ $bestschool -ne 10 ]; do
+while [ $bestschool -ne 9 ]; do
 	if [[ "HI -eq = 8" ]]; then
 	printf "Best School\n"
 
