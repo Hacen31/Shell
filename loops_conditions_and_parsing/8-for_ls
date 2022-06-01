@@ -1,4 +1,5 @@
 :#!/usr/bin/env bash
+#list and repertory
 for i in `ls -als $1`
  do
   if [ -d "$i" ]
