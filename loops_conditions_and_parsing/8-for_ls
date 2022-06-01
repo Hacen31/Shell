@@ -8,4 +8,5 @@ for i in $(ls -als "$1")
   else
     echo "$1"/"$i" 
  fi
+ ((*list++))
   done
