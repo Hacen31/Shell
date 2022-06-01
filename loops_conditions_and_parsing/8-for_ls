@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #list and repertory
-for i in `ls -als $1`
+for i in $(ls -als "$1")
  do
-  if [ -d "$i" ]
-  then
-  ls $1/$i ;
+ if [ -d "$i" ]
+ then
+ ls "$1"/"$i" ; 
   else
-  echo $1/$i
-    fi
-   done
+    echo "$1"/"$i" 
+ fi
+  done
