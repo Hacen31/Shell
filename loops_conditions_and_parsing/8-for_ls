@@ -1,7 +1,10 @@
-#!/usr/bin/env bash
-for i in $list ; do
-    list="*" 
-    echo $i 
-    ((i++))
-
-done;
+:#!/usr/bin/env bash
+for i in `ls -als $1`
+ do
+  if [ -d "$i" ]
+  then
+  ls $1/$i ;
+  else
+  echo $1/$i
+    fi
+   done
