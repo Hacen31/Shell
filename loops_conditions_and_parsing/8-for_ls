@@ -2,5 +2,5 @@
 #list and repertory
 for i in *
  do
-    echo "$i" | cut -d "-" -f 1
+    echo "$i" | cut -d "-" -f 2
  done
