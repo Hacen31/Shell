@@ -1,4 +1,4 @@
-#!/user/bin/env bash 
+#!/usr/bin/env bash 
 # test 10
 i=1
 while [ $i -ne 101 ]; do
