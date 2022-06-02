@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 # test 10
 i=1
-while [ $i -ne 101 ]; do
+while [ "$i" -ne 101 ]; do
     #  si multiple de 3 et 5
     if (( "$i" % 3 == 0 && $i % 5 == 0 )) ; then 
         printf "FizzBuzz\n"
