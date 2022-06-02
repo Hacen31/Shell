@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 #list and repertory
-for i in $list ;
+for i in *
  do
- if [ -d "*" ]
- then
- ls "1"/"i" ; 
- else
- echo "1"/"i"
-  fi
-  echo "ls"
-  ((list++))
-  done
+ echo "$i"
+ cut -d '-' -f1
+ done
