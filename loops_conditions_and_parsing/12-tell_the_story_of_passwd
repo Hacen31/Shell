@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#read pass
 while IFS=":" read etc/passwd 
 do
     if [[USERNAME]]
