@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+while IFS=":" read etc/passwd 
+do
+    if [[USERNAME]]
+        echo "$the GROUP_ID gang"
+        echo "$lives in HOME_DIRECTORY and rides COMMAND/SHELL"
+        echo "$the passcode PASSWORD"
+    fi
+done < /etc/passwd
