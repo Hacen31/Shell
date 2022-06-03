@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 #read pass
-while IFS=":" read etc/passwd 
+IFS=":" 
+while read USERNAME passwd userid groupid info home commandshell    
 do
-    if [[USERNAME]]
-        echo "$the GROUP_ID gang"
-        echo "$lives in HOME_DIRECTORY and rides COMMAND/SHELL"
-        echo "$the passcode PASSWORD"
-    fi
+    echo "The user $USERNAME $passwd is part of the $groupid gang, lives in $infohome and rides $userid  place is protected by the passcode PASSWORD, more info about the user here: USER ID INFO $commandshell"
 done < /etc/passwd
