@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-#ps -c | less 
+# ps -U root -u root -N 
