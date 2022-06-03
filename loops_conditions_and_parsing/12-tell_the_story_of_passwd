@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #read pass
 IFS=":" 
-while read USERNAME passwd userid groupid info home commandshell    
+while read -r USERNAME passwd userid groupid info home commandshell    
 do
     echo "The user $USERNAME $passwd is part of the $groupid gang, lives in $infohome and rides $userid  place is protected by the passcode PASSWORD, more info about the user here: USER ID INFO $commandshell"
 done < /etc/passwd
