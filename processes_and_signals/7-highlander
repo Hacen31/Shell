@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#invisible
+while :
+do
+echo "To infinity and beyond"
+sleep 2
+echo "I am invincible!!!"
+done
