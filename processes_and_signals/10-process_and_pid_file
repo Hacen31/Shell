@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #processdix
-while : "manage_my_process"
+while : "/var/run/myscript.pid"
 do
     echo "I am alive!"
 
-    sleep 2
+    
     echo "To infinity and beyond"
     echo "I hate the kill command"
     echo "I am invincible!!!"
