@@ -6,6 +6,6 @@ do
 
 echo "I am alive!"
 sleep 2
-echo$si
+
   
   done
