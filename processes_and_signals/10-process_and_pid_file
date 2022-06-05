@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 #process
 while true
-    ps aux --forest
+
 do
     echo "I am alive!"        
     echo "To infinity and beyond"
-    echo "I hate the kill command"       kill -SIGTERM
+    echo "I hate the kill command"
+    kill -SIGTERM
     echo "I am invincible!!!"
     echo "Y U no love me?!" 
     kill -SIGINT      
