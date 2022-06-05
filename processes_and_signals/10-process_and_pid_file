@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 #processdix
-#0
-while :
+while : "manage_my_process"
 do
-echo "To infinity and beyond"
-echo "I hate the kill command"
-echo "I am invincible!!!"
-echo "Y U no love me?!"
+    echo "I am alive!"
+
+    sleep 2
+    echo "To infinity and beyond"
+    echo "I hate the kill command"
+    echo "I am invincible!!!"
+    echo "Y U no love me?!"
 done
