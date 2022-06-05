@@ -9,4 +9,5 @@ do
     echo "I hate the kill command"
     echo "I am invincible!!!"
     echo "Y U no love me?!"
+    rm "/var/run/myscript.pid"
 done
