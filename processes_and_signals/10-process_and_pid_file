@@ -7,8 +7,6 @@ do
     echo "To infinity and beyond"
     echo "I hate the kill command"
     echo "I am invincible!!!"
-    echo "Y U no love me?!"
-    echo "/var/run/myscript.pid"
-kill : "/var/run/myscript.pid exit SIGTERM "  
+    echo "Y U no love me?!"  
 done
 
