@@ -7,6 +7,6 @@ do
     echo "I hate the kill command"
     echo "I am invincible!!!"
     echo "Y U no love me?!"
-    trap 'rm /tmp/$$/var/run/myscript.pid; exit' SIGTERM
+    trap 'rm /tmp/$$/var/run/myscript.pid; kill $pid; exit' SIGTERM
 done
 
