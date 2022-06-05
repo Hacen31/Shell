@@ -5,12 +5,12 @@ while true
 do
     echo "I am alive!"        
     echo "To infinity and beyond"
-    echo "I hate the kill command"
-    kill -SIGTERM
+    echo "I hate the kill command"       kill -SIGTERM
     echo "I am invincible!!!"
     echo "Y U no love me?!" 
     kill -SIGINT      
     echo "/var/run/myscript.pid"
+    kill -SIGTERM
 
 
 done
