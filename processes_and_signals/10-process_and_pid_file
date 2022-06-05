@@ -10,9 +10,7 @@ do
     echo "Y U no love me?!" 
     kill -SIGINT      
     echo "/var/run/myscript.pid"
-    ps aux --forest
-    kill <pid> -SIGTERM 
-    "/var/run/myscript.pid"
+
 
 done
 
