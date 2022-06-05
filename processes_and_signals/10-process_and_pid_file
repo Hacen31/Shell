@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #processdix
+#0
 while : "/var/run/myscript.pid"
 do
     echo "I am alive!"        
