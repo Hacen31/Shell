@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 #process
-while : true
+#0
+while :
 
 do
-    echo "/var/run/myscript.pid"       
+           
     echo "To infinity and beyond"
     echo "I hate the kill command"
     echo "I am invincible!!!"
