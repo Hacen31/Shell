@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #process
 while true
+    ps aux --forest
 do
     echo "I am alive!"        
     echo "To infinity and beyond"
